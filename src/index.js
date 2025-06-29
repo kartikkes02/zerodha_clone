@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import HomePage from './landing page/home/HomePage';
+import HomePage from './landingpage/home/HomePage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import Navbar from './landing page/Navbar';
-import Footer from './landing page/Footer';
-import Signup from './landing page/signup/Signup';
-import AboutPage  from './landing page/about/AboutPage';
-import ProductPage from './landing page/products/ProductPage';
-import PricingPage from './landing page/pricing/PricingPage';
-import SupportPage from './landing page/support/SupportPage';
-import NotFound from './landing page/notfound';
+import Navbar from './landingpage/Navbar';
+import Footer from './landingpage/Footer';
+import Signup from './landingpage/signup/Signup';
+import AboutPage  from './landingpage/about/AboutPage';
+import ProductPage from './landingpage/products/ProductPage';
+import PricingPage from './landingpage/pricing/PricingPage';
+import SupportPage from './landingpage/support/SupportPage';
+import NotFound from './landingpage/notfound';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
