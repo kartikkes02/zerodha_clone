@@ -15,7 +15,7 @@ import NotFound from './landingpage/notfound';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <HashRouter>
   <Navbar />
     <Routes>
         <Route path="/" element={<HomePage />}></Route>
@@ -27,5 +27,5 @@ root.render(
         <Route path="*" element={<NotFound />}></Route>
     </Routes>
     <Footer />
-  </BrowserRouter>
+  </HashRouter>
 );
